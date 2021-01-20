@@ -1,7 +1,8 @@
 <?php
-ini_set('log_errors', 1);
-ini_set('error_log','php.log');
-error_log(E_ALL);
+    ini_set('log_errors', 1);
+    ini_set('error_log','php.log');
+    error_log(E_ALL);
+
     require_once 'connection.php';
     require_once 'DbInsert.php';
     $conn = new Connection();
